@@ -30,9 +30,9 @@ router.get("/pot.jpg", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
   utils.getFile("public/images/pot.jpg", res);
 });
-router.get("/product.jpg", (req, res) => {
+router.get("/kitchenutensils.jpg", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.jpg);
-  utils.getFile("public/images/product.jpg", res);
+  utils.getFile("public/images/kitchenutensils.jpg", res);
 });
 router.get("/cuisinique.css", (req, res) => {
   res.writeHead(httpStatus.OK, contentTypes.css);
